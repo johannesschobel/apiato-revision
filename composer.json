@@ -1,0 +1,16 @@
+{
+  "name": "johannesschobel/apiato-revision",
+  "description": "Revision container for apiato.",
+  "type" : "apiato-container",
+  "require": {
+    "johannesschobel/apiato-container-installer" : "0.*",
+	"johannesschobel/laravel-revisionable" : "0.*"
+  },
+  "extra": {
+	"apiato": {
+	  "container": {
+		"name": "Revision"
+	  }
+	}
+  }
+}
